@@ -1,0 +1,20 @@
+package in.ankit.billingsoftware.io;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class DashboardResponse {
+
+    private Double todaySales;
+    private Long todayOrderCount;
+    private List<OrderResponse> recentOrders;
+}
+

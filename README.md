@@ -2,7 +2,7 @@ OneBill – Retail Billing & Inventory Management System
 
 A complete, full-stack billing and inventory management system designed to automate and streamline retail operations.
 
-                                                                    About • Features •Tech Stack •Getting Started •API Endpoints •Screenshots
+About • Features •Tech Stack •Getting Started •API Endpoints •Screenshots
 
 📖 About The Project
 OneBill is a comprehensive, real-world application built to solve the daily challenges faced by retail businesses. It provides a robust platform for managing sales, generating invoices, tracking inventory in real-time, and processing payments seamlessly. The system is architected with a secure back-end using Spring Boot and a responsive, dynamic front-end using React.js, ensuring a reliable and user-friendly experience for both administrators and cashiers.
@@ -76,12 +76,24 @@ Cloud Storage: Integrated with AWS S3 for storing invoices and other related fil
 🚀 Tech Stack
 The project is built using a modern, scalable technology stack:
 
-Front-End	Back-End	Database	Cloud & APIs
+Back-End: Spring Boot, Spring Security, REST API
+
+Front-End: React.js
+
+Database: MySQL
+
+Security: JWT (JSON Web Tokens)
+
+Cloud & DevOps: AWS S3, Razorpay API
 
 
 📸 Screenshots
 
 Good examples include the login page, admin dashboard, billing interface, and inventory page.
+
+loginpage:
+
+
 
 
 
@@ -91,15 +103,10 @@ Follow these instructions to set up the project locally on your machine.
 
 Prerequisites
 Java Development Kit (JDK) 11 or higher
-
 Apache Maven
-
 Node.js and npm
-
 MySQL Server
-
 An AWS account with S3 bucket credentials
-
 A Razorpay account with API keys
 
 Installation
@@ -110,19 +117,14 @@ cd onebill
 Configure the Back-End (Spring Boot):
 
 Open the src/main/resources/application.properties file.
-
 Update the MySQL database URL, username, and password:
 
-Properties
-
+Properties:
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 Add your JWT secret key, AWS credentials, and Razorpay keys:
-
-Properties
-
-jwt.secret=your_jwt_secret
+jwt.secret=secret
 aws.accessKeyId=your_aws_access_key
 aws.secretKey=your_aws_secret_key
 razorpay.keyId=your_razorpay_key_id
@@ -134,7 +136,6 @@ mvn spring-boot:run
 The server will start on http://localhost:8080.
 
 Configure the Front-End (React):
-
 Navigate to the frontend directory (e.g., cd frontend):
 
 Bash
@@ -154,17 +155,17 @@ The application will be accessible at http://localhost:3000.
 
 
 
- API Endpoints
+API Endpoints
 
 Here are some of the key API endpoints available:
 
 ⚙️ Method	Endpoint	Description
-POST	/api/auth/login	Authenticate a user and receive a JWT.
-GET	/api/products	Fetch a list of all products.
-POST	/api/products	Add a new product (Admin only).
-GET	/api/invoices/{invoiceId}	Get details of a specific invoice.
-POST	/api/invoices/generate	Generate a new invoice from the cart.
-POST	/api/payments/create_order	Create a payment order with Razorpay.
+POST	/api/v1.0/auth/login	Authenticate a user and receive a JWT.
+GET	/api/v1.0/products	Fetch a list of all products.
+POST	/api/v1.0/products	Add a new product (Admin only).
+GET	/api/v1.0/invoices/{invoiceId}	Get details of a specific invoice.
+POST	/api/v1.0/invoices/generate	Generate a new invoice from the cart.
+POST	/api/v1.0/payments/create_order	Create a payment order with Razorpay.
 
 
 

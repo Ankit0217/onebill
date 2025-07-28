@@ -178,7 +178,7 @@ POST	/api/payments/create_order	Create a payment order with Razorpay.
 
 📧 Contact
 Ankit Jain - LinkedIn - www.linkedin.com/in/ankitjain0217
-Email: ankit.kumar.singh.0217@gmail.com
+Email: ankit.jain.0217@gmail.com
 
 Project Link: https://github.com/Ankit0217/onebill
 Live : https://onebill-ashy.vercel.app/

@@ -112,8 +112,10 @@ A Razorpay account with API keys
 Installation
 Clone the repository:
 bash
+
 git clone https://github.com/Ankit0217/onebill.git
 cd onebill
+
 Configure the Back-End (Spring Boot):
 
 Open the src/main/resources/application.properties file.
@@ -133,24 +135,29 @@ Run the backend server:
 
 bash
 mvn spring-boot:run
+
 The server will start on http://localhost:8080.
 
 Configure the Front-End (React):
+
 Navigate to the frontend directory (e.g., cd frontend):
 
 Bash
 
 cd path/to/your/frontend_directory
+
 Install the required npm packages:
 
 Bash
 
 npm install
+
 Start the React development server:
 
 Bash
 
 npm start
+
 The application will be accessible at http://localhost:3000.
 
 

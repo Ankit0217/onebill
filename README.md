@@ -2,12 +2,7 @@ OneBill – Retail Billing & Inventory Management System
 
 A complete, full-stack billing and inventory management system designed to automate and streamline retail operations.
 
-About •
-Features •
-Tech Stack •
-Getting Started •
-API Endpoints •
-Screenshots
+                                                                    About • Features •Tech Stack •Getting Started •API Endpoints •Screenshots
 
 📖 About The Project
 OneBill is a comprehensive, real-world application built to solve the daily challenges faced by retail businesses. It provides a robust platform for managing sales, generating invoices, tracking inventory in real-time, and processing payments seamlessly. The system is architected with a secure back-end using Spring Boot and a responsive, dynamic front-end using React.js, ensuring a reliable and user-friendly experience for both administrators and cashiers.
@@ -109,9 +104,7 @@ A Razorpay account with API keys
 
 Installation
 Clone the repository:
-
-Bash
-
+bash
 git clone https://github.com/Ankit0217/onebill.git
 cd onebill
 Configure the Back-End (Spring Boot):
@@ -136,8 +129,7 @@ razorpay.keyId=your_razorpay_key_id
 razorpay.keySecret=your_razorpay_key_secret
 Run the backend server:
 
-Bash
-
+bash
 mvn spring-boot:run
 The server will start on http://localhost:8080.
 

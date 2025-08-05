@@ -23,7 +23,8 @@ The system is architected with a secure, stateless backend using **Spring Boot**
 </tr>
 <tr>
   <td><img src="https://drive.google.com/uc?export=view&id=1r7V-tGjwvM-j7h1NhgWxb6rDQTER6Gzb" width="100%"></td>
-  <td><img src="https://drive.google.com/uc?export=view&id=1Dy14na3X112kcK0TgflrZJc2DNYWSYVb" width="100%"></td>
+  <td><img src="https://drive.google.com/uc?export=view&id=1_DQo63sWkhAB396EgvHbPfubn6k2wf89" width="100%"></td>
+
 </tr>
   <tr>
     <td align="center"><strong>Point of Sale (POS) Interface</strong></td>

@@ -163,7 +163,5 @@ A brief overview of the core API endpoints.
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-## Documentation
 
-[Documentation](https://linktodocumentation)
 

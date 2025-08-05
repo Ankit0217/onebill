@@ -24,9 +24,12 @@ The system is architected with a secure, stateless backend using **Spring Boot**
 <table>
   <tr>
     <td align="center"><strong>Admin Dashboard</strong></td>
+    <td align="center"><strong>Secure Login</strong></td>
+    
   </tr>
   <tr>
     <td><img src="https://drive.google.com/uc?export=view&id=1r7V-tGjwvM-j7h1NhgWxb6rDQTER6Gzb" width="100%"></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=1RC1H8Or4_fjrX7JwRnXZpJRh5Gau-6Mz" width="100%"></td>  
   </tr>
   <tr>
     <td align="center"><strong>Point of Sale (POS) Interface</strong></td>

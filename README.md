@@ -17,15 +17,14 @@ OneBill is a comprehensive, real-world application built to solve the daily chal
 The system is architected with a secure, stateless backend using **Spring Boot** and a responsive, dynamic frontend using **React.js**, ensuring a reliable and user-friendly experience for both administrators and cashiers. This project demonstrates a full software development lifecycle, from system design and database integration to securing APIs and integrating third-party services.## 📸 Screenshots
 
 <table>
-  <tr>
-    <td align="center"><strong>Admin Dashboard</strong></td>
-    <td align="center"><strong>Login</strong></td>
-    
-  </tr>
-  <tr>
-    <td><img src="https://drive.google.com/uc?export=view&id=1r7V-tGjwvM-j7h1NhgWxb6rDQTER6Gzb" width="100%"></td>
-    <td><img src="https://drive.google.com/file/d/1a3cAX_luV0MMnfa-vwfn2nnyfXNAcs1l/view?usp=drive_link" width ="100%"></td>
-  </tr>
+<tr>
+  <td align="center"><strong>Admin Dashboard</strong></td>
+  <td align="center"><strong>Login</strong></td>
+</tr>
+<tr>
+  <td><img src="https://drive.google.com/uc?export=view&id=1r7V-tGjwvM-j7h1NhgWxb6rDQTER6Gzb" width="100%"></td>
+  <td><img src="https://drive.google.com/uc?export=view&id=1a3cAX_luV0MMnfa-vwfn2nnyfXNAcs1l" width="100%"></td>
+</tr>
   <tr>
     <td align="center"><strong>Point of Sale (POS) Interface</strong></td>
     <td align="center"><strong>Inventory Management</strong></td>
